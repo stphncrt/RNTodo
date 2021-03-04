@@ -23,4 +23,21 @@ const main = StyleSheet.create({
   },
 });
 
-export default main;
+export {main};
+
+const todo_input = StyleSheet.create({
+  inputContainer: {
+    backgroundColor: '#e0e0e0',
+    padding: 10,
+    margin: 10,
+    borderRadius: 10,
+  },
+  container: {
+    backgroundColor: '#a7b6bd',
+    padding: 10,
+    margin: 10,
+    borderRadius: 5,
+  },
+});
+
+export {todo_input};

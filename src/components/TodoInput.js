@@ -1,10 +1,15 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {Text, View, TextInput} from 'react-native';
 
-const TodoInput = () => {
+import {todo_input} from './styles';
+
+const TodoInput = (props) => {
   return (
-    <View>
-      <Text></Text>
+    <View style={todo_input.container}>
+      <View style={todo_input.inputContainer}>
+        <TextInput />
+      </View>
+      <Text>Todo Input </Text>
     </View>
   );
 };
