@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import {Dimensions, StyleSheet} from 'react-native';
 
 const main = StyleSheet.create({
   container: {
@@ -22,7 +22,6 @@ const main = StyleSheet.create({
     color: '#ff9b31',
   },
 });
-
 export {main};
 
 const todo_input = StyleSheet.create({
@@ -38,6 +37,30 @@ const todo_input = StyleSheet.create({
     margin: 10,
     borderRadius: 5,
   },
+  buttonContainer: {
+    backgroundColor: '#4a636a',
+    padding: 10,
+    margin: 10,
+    marginHorizontal: 20,
+    width: Dimensions.get('window').width * 0.35,
+    alignSelf: 'center',
+    borderRadius: 10,
+  },
+  buttonText: {
+    alignSelf: 'center',
+    color: 'white',
+    fontWeight: 'bold',
+  },
 });
-
-export {todo_input};
+const todo_card = StyleSheet.create({
+  container: {
+    backgroundColor: '#a7b6bd',
+    padding: 8,
+    margin: 5,
+    borderRadius: 7,
+  },
+  text: {
+    fontSize: 18,
+  },
+});
+export {todo_input, todo_card};
