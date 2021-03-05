@@ -11,6 +11,7 @@ const TodoInput = (props) => {
         <TextInput
           placeholder="Type something to do .."
           onChangeText={(value) => setText(value)}
+          onEndEditing={() => setText('')}
         />
       </View>
       <TouchableOpacity

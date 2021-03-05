@@ -9,7 +9,7 @@ const main = StyleSheet.create({
     // backgroundColor: 'red',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    padding: 10,
+    padding: 5,
     alignItems: 'center',
   },
   todoText: {
@@ -27,20 +27,20 @@ export {main};
 const todo_input = StyleSheet.create({
   inputContainer: {
     backgroundColor: '#e0e0e0',
-    padding: 10,
-    margin: 10,
+    padding: 5,
+    margin: 5,
     borderRadius: 10,
   },
   container: {
     backgroundColor: '#a7b6bd',
-    padding: 10,
+    padding: 5,
     margin: 10,
     borderRadius: 5,
   },
   buttonContainer: {
     backgroundColor: '#4a636a',
-    padding: 10,
-    margin: 10,
+    padding: 5,
+    margin: 5,
     marginHorizontal: 20,
     width: Dimensions.get('window').width * 0.35,
     alignSelf: 'center',
